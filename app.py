@@ -262,7 +262,7 @@ if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=port)
 
 
-def architecture_analyze():
+def architecture_analyzze():
     try:
         data = request.get_json()
         repo_data_set
